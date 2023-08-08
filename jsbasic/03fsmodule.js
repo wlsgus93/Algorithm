@@ -1,4 +1,4 @@
-//기능: 전체 텍스트를 읽어 온 뒤에, 줄바꿈 기호를 기준으로 구분하여 리스트로 변환하기
+// 기능: 전체 텍스트를 읽어 온 뒤에, 줄바꿈 기호를 기준으로 구분하여 리스트로 변환하기
 // readline 모듈보다는 fs를 이용해 파일 전체를 읽어 들여 처리하기
 
 // readfilesynce ==> 파일 동기로적으로 파일 읽기
@@ -13,7 +13,7 @@ console.log(input)
 
 
 
-/* readline */
+/* readline (fs모듈 사용못할때)*/ 
 const rl = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout
@@ -30,3 +30,4 @@ rl.on('line', function (line) {
 
 
 
+// vs코드 터미널에서 입출력 사용시 debugger launch.json 파일에 "console": "integratedTerminal" 추가한다

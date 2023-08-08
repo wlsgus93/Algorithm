@@ -10,3 +10,4 @@ console.log(`hello ${a}`)
 let name='jinhyun'
 
 console.log(name);
+

@@ -1,0 +1,32 @@
+
+
+// let= summary=0;
+
+// for(let i=0; i<=10;i++)
+// {
+//     summary+=i;
+// }
+// console.log(summary)
+
+// let i=0;
+// while (i<10)
+// {
+//     console.log('hi')
+//     console.log(i)
+//     i++
+// }
+
+// for (variable in object) {
+//     statements
+//   }
+
+
+let arr = [3, 5, 7];
+arr.foo = "hello"; //[3, 5, 7, foo: 'hello']
+
+for (let i in arr) {
+   console.log(i); // logs "0", "1", "2", "foo"
+}
+for (let i of arr) {
+   console.log(i); // logs "3", "5", "7"
+}

@@ -1,0 +1,13 @@
+let t='2';
+if (t==1)
+{
+    console.log('hello')
+}
+else if (t==2)
+{
+    console.log('world')
+}
+else
+{
+    console.log('hi')
+}
